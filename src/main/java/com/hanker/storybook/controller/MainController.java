@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-    @GetMapping(value="/home")
+    @GetMapping(value="/")
     public String main() throws Exception{
         return "main";
     }
+
+
 }
